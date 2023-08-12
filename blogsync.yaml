@@ -1,0 +1,5 @@
+noko1024.hatenablog.jp:
+  username: noko1024
+  password: $HATENA_API_KEY
+default:
+  local_root: entries
