@@ -30,7 +30,7 @@ jobs:
 
       - name: Post hatena draft blog to hatena blog
         run: |
-          ~/go/bin/blogsync post --draft m-yamashii.hatenablog.com < draft.md
+          ~/go/bin/blogsync post --draft noko1024.hatenablog.com < draft.md
 
       - name: Commit draft blog
         uses: stefanzweifel/git-auto-commit-action@v4
